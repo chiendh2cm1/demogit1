@@ -22,7 +22,7 @@ translator(request,response);
         Map<String, String> dictionary = new HashMap<>();
         dictionary.put("hello", "Xin chào");
         dictionary.put("how", "Thế nào");
-        dictionary.put("book", "Quyển vở");
+        dictionary.put("book", "Quyển a vở");
         dictionary.put("computer", "Máy tính");
         response.setContentType("text/html;charset = UTF-8");
         request.setCharacterEncoding("utf-8");
